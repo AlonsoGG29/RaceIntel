@@ -42,7 +42,7 @@ def _build_llm():
     llm = ChatOpenAI(
         api_key=os.getenv("OPENAI_API_KEY"),
         base_url=os.getenv("AZURE_OPENAI_BASE_URL"),
-        model="gpt-4o-mini",
+        model="gpt-5.4-mini",
         temperature=0.2,
     )
     return llm.bind_tools(_TOOLS)
