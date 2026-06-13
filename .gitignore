@@ -1,0 +1,6 @@
+# Claves del .env
+.env
+
+# Cache de node_modules
+node_modules/
+pycache/
